@@ -36,7 +36,7 @@ public class Piece {
 
     //region Members
 
-    final Vector2 pos;
+    final Vector2 pos; //table..
     public final int colorIndex;
     private final int rotation;
 
