@@ -153,6 +153,8 @@ public class Piece {
 
     void draw(SpriteBatch batch) {
         final Color c = Klooni.theme.getCellColor(colorIndex);
+        System.out.println("Piece draw x" + pos.x + " y "  + pos.y + " color "+ c.toString()) ;
+
         for (int i = 0; i < cellRows; ++i)
             for (int j = 0; j < cellCols; ++j)
                 if (shape[i][j])

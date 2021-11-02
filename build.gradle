@@ -4,13 +4,13 @@ buildscript {
         mavenCentral()
         maven { url "https://plugins.gradle.org/m2/" }
         maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
-        jcenter()
+        //jcenter()
         google()
     }
     dependencies {
         classpath 'org.wisepersist:gwt-gradle-plugin:1.0.9'
         // Don't update to avoid breaking the build; noinspection GradleDependency
-        classpath 'com.android.tools.build:gradle:4.2.1'
+        classpath 'com.android.tools.build:gradle:7.0.3'
         classpath 'com.mobidevelop.robovm:robovm-gradle-plugin:2.3.8'
     }
 }
@@ -31,7 +31,7 @@ allprojects {
     repositories {
         mavenLocal()
         mavenCentral()
-        jcenter()
+       // jcenter()
         google()
         maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
         maven { url "https://oss.sonatype.org/content/repositories/releases/" }

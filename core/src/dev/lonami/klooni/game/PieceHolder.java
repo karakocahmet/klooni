@@ -277,6 +277,7 @@ public class PieceHolder implements BinSerializable {
         for (int i = 0; i < count; ++i) {
             if (pieces[i] != null) {
                 pieces[i].draw(batch);
+                System.out.println("piece holder draw  x "+ pieces[i].pos.x + " y " +pieces[i].pos.y );
             }
         }
     }

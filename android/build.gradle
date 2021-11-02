@@ -19,7 +19,7 @@ android {
     defaultConfig {
         applicationId "dev.lonami.klooni"
         //noinspection MinSdkTooLow
-        minSdkVersion 23
+        minSdkVersion 22
         targetSdkVersion 30
         versionCode 860
         versionName "0.8.6"
